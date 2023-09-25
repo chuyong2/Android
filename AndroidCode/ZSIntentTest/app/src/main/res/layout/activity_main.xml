@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/button_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打开百度"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+
+    <Button
+            android:id="@+id/button_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打开相册"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+
+
+
+</LinearLayout>
